@@ -13,4 +13,5 @@ two_integers_calculator:
   8-prime number determination of 2 numbers
   9-getting squareroot of number
   10-getting result of powering the number by any integer
+  11- determining if number even or odd
   
