@@ -98,6 +98,23 @@ return result;
 }
 
 
+void iseven(int x){
+    bool even = false;
+    
+ // 0 is not even
+    if (x == 0 ) {
+      even= false;
+        
+    }
+     if(x%2 == 0)
+    even =true;
+
+     if(even == false)
+     cout<<"number is not prime \n";
+     else  cout<<"number is prime \n";
+}
+
+
 int main()
 {
     while(1){
@@ -171,6 +188,14 @@ switch(op) {
     cout<<"result = "<<result2 << "\n";
      break;
     }    
+        
+//for determining even or not
+    case 'e':
+    {
+    iseven(s);
+    iseven(n);
+     break;
+    } 
 
     
 // if no implemented operation was selected display nothing entered
