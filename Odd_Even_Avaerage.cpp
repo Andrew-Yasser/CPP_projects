@@ -37,21 +37,4 @@ cout<<"avergae sum of even = "<<(float) EvenSum/CountEven<<endl <<"avergae sum o
     
 }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
