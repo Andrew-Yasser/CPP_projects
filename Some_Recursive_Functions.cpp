@@ -51,7 +51,7 @@ int subtract(int x, int y)
     else return 1+  subtract(x, y+1);
 }
 
-
+// function to count vowel charecters in an array
 int CountVowel(char str[] , int len){
     if( str[len-1] == 'a' ||
         str[len-1] == 'e' ||
