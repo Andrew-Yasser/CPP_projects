@@ -10,7 +10,7 @@ int a[n];
 
 
 //user enters array elements
-cout<<"please enter "<<n<<"elements"<<endl;
+cout<<"please enter "<<n<<" elements"<<endl;
 
 for(int i=0 ; i<n; i++){
     
