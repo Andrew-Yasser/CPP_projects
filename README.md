@@ -27,5 +27,6 @@ two_integers_calculator:
     6- get mode of an array
     7- get location(index) of maximum value in array
     8- array initialization
+    9- search for a value in array and return the index of it.
     along with a driver programs that allows user to enter size and elements of the array
     
