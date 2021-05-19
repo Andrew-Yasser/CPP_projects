@@ -15,3 +15,17 @@ two_integers_calculator:
   10-getting result of powering the number by any integer
   11- determining if number even or odd
   
+  
+  Odd_even_average: program that asks the user to enter an array and calculates the average of odd and even elements in it
+  
+  array_functions_implemented: various array functions implemented like:
+    1- get maximum value in array
+    2- get minimum value in array
+    3- print an array
+    4- reverse an array
+    5- get average of an array
+    6- get mode of an array
+    7- get location(index) of maximum value in array
+    8- array initialization
+    along with a driver programs that allows user to enter size and elements of the array
+    
