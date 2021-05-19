@@ -96,6 +96,15 @@ double getMode (double x[], int n)
 }
 
 
+//function to search for a value in an Array
+double search(double val, double x[], int n){
+    for(int i=0; i<n; i++){
+        if(x[i]==val)
+            return i;
+    }
+    
+    return -1;
+}
 
 
 
@@ -104,15 +113,20 @@ double getMode (double x[], int n)
 int main()
 {
     int n=0;
+    double val=0;
     cout<<"Enter number of values";
     cin>>n;
     double a[n] ={0}; 
    
-    cout<<"Enter Array";
+    cout<<"Enter Array ";
     for(int i=0 ;i<n; i++){
         cin>> a[i];
     }
     
+    cout<<"Enter value to search for ";
+    cin>>val;
+    
+   double result= search(val,a,n);
    double max= getMax(a,n);
    double min= getMin(a,n);
    double mode= getMode(a,n);
@@ -126,6 +140,7 @@ int main()
    PrintArr(a,n);
    cout<<"the reversed array is ";
    RevArr(a,n);
+   cout<<"the val was found in index "<<result<<"\n"; //-1 for no result
   
     return 0;
 }
